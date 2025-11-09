@@ -2,7 +2,7 @@
 
 This Python-based analysis tool provides processing, visualization, and evaluation of X-ray diffraction (XRD) data, including **background subtraction**, **peak fitting**, and **Williamson–Hall (W–H) analysis**. 
 
-## 🔍 Features
+## Features
 
 - **Background subtraction** using polynomial fitting  
 - **Peak identification** via `scipy.signal.find_peaks`  
