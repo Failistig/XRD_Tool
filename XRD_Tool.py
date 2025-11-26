@@ -8,7 +8,7 @@ from scipy.optimize import curve_fit
 from sklearn.linear_model import TheilSenRegressor
 
 # === 1. Load data ===
-filename = r"C:\Users\Florian\Desktop\Physik\Masterarbeit\Data\XRD\Floriank\Excess_Measurements\correct optics\Txt_Files\01102025_B2_125_Excess_Measurement_correct_optics_goebel.txt"
+filename = r""
 data = np.loadtxt(filename)
 
 two_theta = data[:, 0]
@@ -476,3 +476,4 @@ button_sch.on_clicked(scherrer_analysis)
 # === Initial plot ===
 update(None)
 plt.show()
+
